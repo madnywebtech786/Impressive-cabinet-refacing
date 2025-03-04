@@ -28,8 +28,8 @@ export default function Footer() {
               height={35}
             />
             <h2 className='text-lg font-bold'>Phone</h2>
-            <p className='text-sm'>403-361-4968 </p>
-            <p className='text-sm'>(778) 861-8906 Vancouver (Lower mainland) </p>
+            <Link href={'tel:+14033614968'}> <p className='text-sm'>403-361-4968 </p></Link>
+            <Link href={'tel:+17788618906'}> <p className='text-sm'>(778) 861-8906 Vancouver (Lower mainland) </p></Link>
           </div>
         </div>
         <div className='w-full lg:w-1/3 p-4 shadow-xl'>
@@ -41,7 +41,7 @@ export default function Footer() {
               height={35}
             />
             <h2 className='text-lg font-bold'>Email</h2>
-            <p className='text-sm'>info@impressiveKitchen.com</p>
+            <Link href={'mailto:impressiveltd20@gmail.com'}><p className='text-sm'>impressiveltd20@gmail.com</p></Link> 
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Footer() {
               </div>
               <div className='flex flex-col gap-1'>
                 <h3 className='text-base font-bold '>Hotline</h3>
-                <p className='text-xs'>403-361-4968</p>
+                <Link href={'tel:+14033614968'}> <p className='text-xs'>403-361-4968</p></Link>
               </div>
             </div>
             <div className='flex gap-5 items-center flex-col lg:flex-row text-center lg:text-start'>
@@ -104,7 +104,7 @@ export default function Footer() {
               </div>
               <div className='flex flex-col gap-1'>
                 <h3 className='text-base font-bold '>Vancouver</h3>
-                <p className='text-xs'>(778) 861-8906 Vancouver (Lower mainland)</p>
+                <Link href={'tel:+17788618906'}> <p className='text-xs'>(778) 861-8906 Vancouver (Lower mainland)</p> </Link>
               </div>
             </div>
             <div className='flex gap-5 items-center flex-col lg:flex-row text-center lg:text-start'>
@@ -118,7 +118,7 @@ export default function Footer() {
               </div>
               <div className='flex flex-col gap-1'>
                 <h3 className='text-base font-bold '>Official Email</h3>
-                <p className='text-xs'>info@impressiveKitchen.com</p>
+                <Link href={'mailto:impressiveltd20@gmail.com'}><p className='text-xs'>impressiveltd20@gmail.com</p></Link>
               </div>
             </div>
 

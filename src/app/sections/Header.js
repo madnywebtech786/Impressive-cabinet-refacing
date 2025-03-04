@@ -39,7 +39,7 @@ export default function Header() {
                   Call today for your quote in Calgary and nearby areas
                   </p>
                 </div>
-                <Link href={'#contact'}>
+                <Link href={'tel:+14033614968'}> 
                   <button className='bg-white rounded-full p-1 lg:p-3 px-4 lg:px-12 w-max text-xxs lg:text-xs font-semibold uppercase'>
                     Call Today 403-361-4968
                   </button>
@@ -88,7 +88,7 @@ export default function Header() {
                     existing Wood Doors/Draw fronts – Paint colors are endless
                   </p>
                 </div>
-                <Link href={'https://wa.me/14033614968'}>
+                <Link href={'tel:+14033614968'}>
                   <button className='bg-white rounded-full p-1 lg:p-3 px-4 lg:px-12 w-max text-xxs lg:text-xs font-semibold uppercase'>
                     Call Us Now
                   </button>
@@ -116,7 +116,7 @@ export default function Header() {
                     colors and textures to choose from
                   </p>
                 </div>
-                <Link href={'https://wa.me/14033614968'}>
+                <Link href={'tel:+14033614968'}>
                   <button className='bg-white rounded-full p-1 lg:p-3 px-4 lg:px-12 w-max text-xxs lg:text-xs font-semibold uppercase'>
                     Start Your Design Journey
                   </button>

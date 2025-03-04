@@ -3,16 +3,16 @@ import Breadcrumb from '../components/Breadcrumb';
 import ProjectCard from '../components/ProjectCard';
 const projects = [
   {
-    img1: '/images/projects/Impressive1.jpg',
-    img2: '/images/projects/Impressive1-1.jpg',
+    img1: '/images/projects/Impressive1.JPG',
+    img2: '/images/projects/Impressive11.JPG',
   },
   {
     img1: '/images/projects/Impressive2.jpg',
     img2: '/images/projects/Impressive2.1.jpg',
   },
   {
-    img1: '/images/projects/Impressive3.jpg',
-    img2: '/images/projects/Impressive3-1.jpg',
+    img1: '/images/projects/Impressive3.JPG',
+    img2: '/images/projects/Impressive31.JPG',
   },
   {
     img1: '/images/projects/Impressive4.jpg',
